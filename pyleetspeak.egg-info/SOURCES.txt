@@ -1,5 +1,6 @@
 LICENSE
 README.md
+pyproject.toml
 setup.py
 pyleetspeak/InversionCamouflage.py
 pyleetspeak/LeetSpeaker.py
@@ -17,3 +18,4 @@ pyleetspeak.egg-info/requires.txt
 pyleetspeak.egg-info/top_level.txt
 tests/__init__.py
 tests/test_leetspeaker.py
+tests/test_package_metadata.py
