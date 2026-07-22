@@ -1,0 +1,37 @@
+[project]
+name = "pyleetspeak"
+dynamic = ["version"]
+description = "Leetspeak and word-camouflage transformations"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "AIDA" },
+]
+dependencies = [
+    "codetiming>=1.4.0",
+    "keybert>=0.9.0",
+    "matplotlib>=3.10.9",
+    "nltk>=3.10.0",
+    "numpy>=2.2.6",
+    "pyphen>=0.17.2",
+    "scikit-learn>=1.7.2",
+    "spacy>=3.8.14",
+    "tqdm>=4.69.0",
+    "unidecode>=1.4.0",
+    "yake>=0.7.3",
+]
+
+[build-system]
+requires = ["setuptools>=83.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pyleetspeak*"]
+
+[tool.setuptools.dynamic]
+version = { attr = "pyleetspeak.__version__" }
+
+[dependency-groups]
+test = [
+    "pytest>=8.4.1",
+]

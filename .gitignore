@@ -1,0 +1,25 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Coverage and type-checker caches
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Notebook checkpoints and operating-system files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
