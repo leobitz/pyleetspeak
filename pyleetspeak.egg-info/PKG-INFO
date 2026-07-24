@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: pyleetspeak
-Version: 0.4.0
+Version: 0.3.9
 Summary: Leetspeak and word-camouflage transformations
 Author: AIDA
 Requires-Python: >=3.10
@@ -17,6 +17,8 @@ Requires-Dist: spacy>=3.8.14
 Requires-Dist: tqdm>=4.69.0
 Requires-Dist: unidecode>=1.4.0
 Requires-Dist: yake>=0.7.3
+Requires-Dist: sentence-transformers<6,>=5.6.0
+Requires-Dist: transformers<6,>=5.5.0
 Dynamic: license-file
 
 # LeetTransformer :one::three::three::seven::robot:
